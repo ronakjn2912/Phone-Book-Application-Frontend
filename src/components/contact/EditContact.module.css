@@ -1,0 +1,88 @@
+.formdata {
+  justify-items: center;
+  margin-top: 33px;
+}
+
+.nameEmail {
+  margin-bottom: 30px;
+}
+
+.nameEmail .nameLabel {
+  margin-right: 40px;
+}
+.nameInput {
+  margin-left: 20px;
+}
+
+.nameInput::placeholder {
+  font-style: italic;
+}
+
+.nameInput {
+  margin-left: 20px;
+}
+
+.mailInput::placeholder {
+  font-style: italic;
+}
+
+.datePhone {
+  margin-bottom: 30px;
+}
+.datePhone .dateLabel {
+  margin-right: 40px;
+}
+.dateInput {
+  margin-left: 14px;
+}
+.dateInput::placeholder {
+  font-style: italic;
+}
+
+.dateInput {
+  width: 165px;
+  margin-left: 28px;
+}
+
+.mobileHandler{
+  display: inline-block;
+}
+
+.alert{
+  text-align: end;
+  color: red;
+  display: block;
+  font-size: 10px;
+}
+
+.ContactFormButton {
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  background-color: white;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.ContactFormButton:hover {
+  cursor: pointer;
+  color: white;
+  background-color: green;
+}
+.ContactFormButton:disabled{
+  cursor: not-allowed;
+  color: black;
+}
+
+.formButtons {
+  display: flex;
+  gap: 36px;
+}
+
+.cgroupSelect{
+  margin-left: 20px;
+}

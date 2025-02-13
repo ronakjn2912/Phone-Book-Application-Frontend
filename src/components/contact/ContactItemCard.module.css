@@ -1,0 +1,18 @@
+.contactItem {
+  font-family: cursive;
+  color: black;
+  width: 330px;
+  display: inline-block;
+  border: 1px solid #e2e8f0; /* Border for the card */
+  border-radius: 10px; /* Rounded corners */
+  padding: 16px; /* Padding inside the card */
+  margin: 24px;
+  /* Shadow effect = X Y blurr spread color*/
+  background-color: #ffffff; /* Background color */
+}
+
+.contactItem:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  /* background-color: #1A1A19; */
+}

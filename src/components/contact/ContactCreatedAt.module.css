@@ -1,0 +1,21 @@
+.contactDateBlock{
+    background-color: #718096;
+    padding: 3px;
+    border: solid 1px black;
+    /* display: inline-table; */
+    display: inline-block;
+    /* float: left; */
+    color: black;
+    border-radius: 8px;
+    font-size: 7px;
+    /* display: flex; */
+    gap : 4px;
+    float: left;    
+
+}
+
+.contactDate{
+    font-weight:bolder;
+    display: inline-block;
+    margin-left: 4px;
+}

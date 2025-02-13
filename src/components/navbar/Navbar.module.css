@@ -1,0 +1,71 @@
+.navbar {
+  position: relativej;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1A237E;
+  color: #ceeaef;
+}
+
+.left {
+  display: flex;
+  float: left;
+  margin-right: auto;
+}
+
+.right {
+  color: #ceeaef;
+  text-decoration: none;
+}
+
+.separation {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.ImportExport {
+  display: inline-flex;
+
+  text-align: center;
+}
+
+.menuIcon {
+  border: 1px solid whitesmoke;
+  margin-right: 12px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.dropDownMenu {
+  background-color: #c9edfb;
+  color: #032357;
+  position: absolute;
+  top: 20px;
+  right: 78px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 21px;
+  padding-right: 19px;
+}
+
+.dropDownMenu li {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.ruler {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.login {
+  display: flex;
+  float: right;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #f6fcdf;
+}
+
+.logout {
+  cursor: pointer;
+}

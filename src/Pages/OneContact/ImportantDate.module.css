@@ -1,0 +1,49 @@
+.oneDate {
+  display: flex;
+  width: auto;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 11px;
+  padding: 6px;
+  margin-bottom: 10px;
+  gap: 34px;
+}
+
+.indexName {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  color: grey;
+  cursor: pointer;
+}
+.calendarIcon{
+  margin-top: 3px;
+}
+.indexDate {
+  margin-top: 6px;
+}
+.existingDates{
+  display: flex;
+  gap: 6px;
+}
+.selectDate {
+  display: flex;
+  gap: 20px;
+}
+.dateOptions {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.saveDate {
+  border: 1px lightgrey solid;
+  background-color: lightgray;
+  border-radius: 3px;
+  margin-top: 6px;
+}
+
+.saveDate:hover {
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+}

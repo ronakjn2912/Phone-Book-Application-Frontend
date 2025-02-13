@@ -1,0 +1,35 @@
+[
+  {
+    "id" : "2",
+    "name": "Ronak jain",
+    "phone": "9237634211",
+    "date": "2020, 1, 11",
+    "email": "ronak@yash.com",
+    "cgroup" : "me"
+    
+  },
+  {
+    "id" : "2",
+    "name": "Chetan Sul",
+    "phone": "9878789839",
+    "date": "2018, 4, 15",
+    "email": "chetan@yash.com",
+    "cgroup" : "colleague"
+  },
+  {
+    "id" : "3",
+    "name": "Yuvraj ramdurg",
+    "phone": "9812099839",
+    "date": "2024, 11, 23",
+    "email": "yuvraj@yash.com",
+    "cgroup" : "friend"
+  },
+  {
+    "id" : "3",
+    "name": "Ajinkya salunke",
+    "phone": "9809238432",
+    "date": "2024, 11, 23",
+    "email": "ajinkya@yash.com",
+    "cgroup" : "friend"
+  }
+]

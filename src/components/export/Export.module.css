@@ -1,0 +1,9 @@
+.exportDiv {
+  margin-bottom: 4px;
+}
+
+.export {
+  background: transparent;
+  cursor: pointer;
+  border: 0px;
+}

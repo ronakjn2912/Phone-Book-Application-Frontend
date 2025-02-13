@@ -1,0 +1,36 @@
+.address{
+}
+
+.addressHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;/* ensures that the child elements are spaced evenly as specified, in our case minimized button should be at extreme right */
+}
+.minimize {
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 8px;
+  float: right;
+}
+
+.minimize:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.addressInput {
+  height: 33px;
+  border-radius: 6px;
+  border-color: lightgrey;
+  margin-left: 34px;
+  border: 0px;
+}
+
+
+.addressDetails {
+  margin-left: 3px;
+  height: 33px;
+  border-radius: 6px;
+  border-color: lightgrey;
+  border: 0px;
+}

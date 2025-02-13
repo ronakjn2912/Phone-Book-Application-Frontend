@@ -1,0 +1,85 @@
+.contactItems {
+  display: inline-block;
+}
+
+.NameFunctionalities {
+  display: flex;
+  justify-content: space-between;
+}
+.functionalities {
+  gap: 4px;
+  display: flex;
+  float: right;
+}
+
+
+.edit{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #009688;
+  border: 0px;
+  cursor: pointer;
+}
+
+/* styles.css */
+.delete {
+  background-color: white; /* Default button color */
+  color: black; /* Default text/icon color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer */
+  padding: 10px; /* Add some padding */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  border-radius: 8px;
+}
+.edit:hover {
+  background-color: white;
+}
+.edit:hover .editIcon{
+  color: #009688;
+}
+.deleteIcon {
+  color: #DC3545; /* Default icon color */
+  transition: color 0.3s; /* Smooth transition for icon color */
+}
+
+.delete:hover {
+  background-color: #DC3545; /* Button color on hover */
+}
+
+.delete:hover .deleteIcon {
+  color: white; /* Icon color on hover */
+}
+.name {
+  font-size: 10px;
+  display: inline-block;
+}
+
+.data {
+  float: left;
+  margin-top: 22px;
+  margin-left: 55px;
+}
+
+.data .phone {
+  float: left;
+  margin-right: 24px;
+}
+.mail{
+  float: left;
+}
+.fullname {
+  float: left;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cgroupTag{
+  font-size: 20px;
+}
+
+.favorite {
+  float: left;
+  font-size: 15px;
+  margin-left: 10px;
+}

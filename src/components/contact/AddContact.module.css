@@ -1,0 +1,84 @@
+.addContact {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.addContainer {
+  display: flex;
+}
+
+.addContact .add {
+  color: black;
+  font-weight: 500;
+  background-color: #009688;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  line-height: 1.5;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex; /* Helps with alignment */
+  align-items: center; /* Centers the icon and text */
+  border: #e2e8f0;
+}
+
+.addIcon {
+  font-size: 20px;
+}
+.add:hover {
+  background-color: #e2e8f0;
+}
+
+.add:hover .addIcon {
+  color: #009688;
+}
+.tooltip {
+  visibility: hidden;
+  border: 1px solid black;
+  font-size: xx-small;
+  position: absolute;
+  width: 100px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 2px;
+  padding: 5px;
+  z-index: 1;
+  top: 100%; /* Position above the button */
+  left: 50%;
+  transform: translateX(-50%); /* Center the tooltip */
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.add:hover .tooltip {
+  visibility: visible;
+  display: inline-block;
+  opacity: 1;
+}
+.searchDiv {
+  display: inline-block;
+}
+
+.search {
+  /* margin-left: 480px; */
+  width: 250px;
+  height: 40px;
+  border: 2px solid #e2e8f0;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f1f5f9;
+}
+
+.cgroupFilterSelect {
+  height: 43px;
+  border-radius: 12px;
+  width: 127px;
+  border: 1.8px solid #e2e8f0;
+  font-size: 14px;
+  background-color: #f1f5f9;
+}
